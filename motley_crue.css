@@ -1,0 +1,70 @@
+#sivujako {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.ylapalkki {
+    width: 100%;
+}
+
+.keski {
+    width: 70%;
+    /*margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;*/
+    margin-bottom: 10px;
+    
+}
+
+.sivu {
+    width: 30%;
+    background-color: tomato;
+    
+}
+
+h1, h4 {
+    text-align: center;
+}
+
+.kuva {
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 20px 0px 5px 5px #000000;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+@media only screen and (max-width: 900px) {
+	main, .sivu {
+		width: 100%;
+	}
+	
+}
+
+.pohja {
+    width: 100%;
+    background: url(kuvat/liekit.jpg);
+}
+
+body {
+    background-color: #c50000;
+}
+
+p {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+button {
+    margin-left: 40px;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 20px;
+    text-decoration: underline;
+}
